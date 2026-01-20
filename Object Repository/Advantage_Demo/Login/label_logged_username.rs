@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_logged_username</name>
+   <tag></tag>
+   <elementGuidId>f3ea48b6-6c7a-4315-9dea-0c2676d59e90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;menuUserLink&quot;]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menuUserLink&quot;]/span</value>
+      <webElementGuid>8ebf8d3e-026a-4cbf-95df-10a7cd8880dc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

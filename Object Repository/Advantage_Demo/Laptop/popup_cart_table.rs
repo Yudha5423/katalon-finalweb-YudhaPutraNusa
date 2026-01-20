@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_cart_table</name>
+   <tag></tag>
+   <elementGuidId>a80be647-fc47-4bce-acba-6bd782c609ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;toolTipCart&quot;]/div/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;toolTipCart&quot;]/div/table</value>
+      <webElementGuid>8e6425f3-4e68-4eef-b68f-1e78fa8b1371</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

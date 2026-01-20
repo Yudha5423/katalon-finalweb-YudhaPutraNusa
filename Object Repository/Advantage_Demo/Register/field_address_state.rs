@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_address_state</name>
+   <tag></tag>
+   <elementGuidId>ba3bc5ba-8bba-498e-8ddf-014337089e3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;formCover&quot;]/div[3]/div[2]/sec-view[${field}]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;formCover&quot;]/div[3]/div[2]/sec-view[${field}]/div/input</value>
+      <webElementGuid>56f4b247-0f02-4f1c-85d5-aff8d66e2b48</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

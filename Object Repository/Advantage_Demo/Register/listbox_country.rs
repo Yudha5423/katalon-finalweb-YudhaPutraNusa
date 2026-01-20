@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>listbox_country</name>
+   <tag></tag>
+   <elementGuidId>e3585a86-eb91-4c76-8a22-bbb46c5fbe98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;formCover&quot;]/div[3]/div[1]/sec-view[1]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;formCover&quot;]/div[3]/div[1]/sec-view[1]/div/select</value>
+      <webElementGuid>066d53ed-b4e1-4db4-abfd-48bfca1dff04</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

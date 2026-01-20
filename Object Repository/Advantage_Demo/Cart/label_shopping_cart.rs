@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_shopping_cart</name>
+   <tag></tag>
+   <elementGuidId>acc79925-72f3-4af4-b565-8581e9627801</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/section/article/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/section/article/h3</value>
+      <webElementGuid>889d31aa-2bc8-4de8-8b85-79a008cfc56e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

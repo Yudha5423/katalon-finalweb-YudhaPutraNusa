@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_user</name>
+   <tag></tag>
+   <elementGuidId>9e8029fd-244c-406e-8220-a887c4f00b06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;menuUser&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;menuUser&quot;]</value>
+      <webElementGuid>ee5c7aa5-9b9b-4e3d-945d-50572b385d7c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

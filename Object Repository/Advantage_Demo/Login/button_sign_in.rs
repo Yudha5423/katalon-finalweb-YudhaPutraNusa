@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_sign_in</name>
+   <tag></tag>
+   <elementGuidId>7b9ceb32-39c4-452f-8dca-a12a7fd9f7b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sign_in_btn&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sign_in_btn&quot;]</value>
+      <webElementGuid>4989c431-a9ff-471d-a83c-d1de70fddbd2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

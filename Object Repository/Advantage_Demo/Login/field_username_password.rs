@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_username_password</name>
+   <tag></tag>
+   <elementGuidId>bc8fbe49-c3a5-4f3e-a298-a2646bc50503</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/login-modal/div/div/div[3]/sec-form/sec-view[${field}]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/login-modal/div/div/div[3]/sec-form/sec-view[${field}]/div/input</value>
+      <webElementGuid>e147e5a5-c4dd-4f0e-96a8-4f048253b6a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

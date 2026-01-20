@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_city</name>
+   <tag></tag>
+   <elementGuidId>db37d323-bf34-4afd-a80f-9e0405e1a421</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;formCover&quot;]/div[3]/div[1]/sec-view[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;formCover&quot;]/div[3]/div[1]/sec-view[2]/div/input</value>
+      <webElementGuid>e17b9e4a-89b2-4757-8d49-c0b0e276ff0c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -21,16 +21,52 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://advantageonlineshopping.com/#/register')
 
 //Set Text Account Details
+def time = new Date().format('HHmmss')
 
-WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_username_email', ['field' : '1']), user)
+String username = 'yudha_' + time
 
-WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_username_email', ['field' : '2']), email)
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_username_email', ['field' : '1']), username)
 
-WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_password_confirm_password', ['field' : '1']), pass)
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_username_email', ['field' : '2']), "yudha.test@test.com")
 
-WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_password_confirm_password', ['field' : '2']), Cpass)
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_password_confirm_password', ['field' : '1']), "Yudhatest123")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_password_confirm_password', ['field' : '2']), "Yudhatest123")
 
 //Set Text Personal Details
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_first_last_name', ['field' : '1']), "Yudha")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_first_last_name', ['field' : '2']), "Test")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_phone_number'), "081234567890")
+
+//Set Text Address
+
+WebUI.selectOptionByLabel(
+    findTestObject('Object Repository/Advantage_Demo/Register/listbox_country'),
+    'Indonesia',
+    false)
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_city'), "Semarang")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_address_state', ['field' : '1']), "Jalan Kaki")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_address_state', ['field' : '2']), "Semarang")
+
+WebUI.setText(findTestObject('Object Repository/Advantage_Demo/Register/field_postal_code'), "12345")
+
+WebUI.click(findTestObject('Object Repository/Advantage_Demo/Register/checkbox_agreement'))
+
+WebUI.click(findTestObject('Object Repository/Advantage_Demo/Register/button_register'))
+
+//Verify Register
+
+String currentUrl = WebUI.getUrl()
+println(currentUrl)
+WebUI.verifyMatch(currentUrl, 'https://advantageonlineshopping.com/#/register', false)

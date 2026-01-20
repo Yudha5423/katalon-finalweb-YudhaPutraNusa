@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_laptop</name>
+   <tag></tag>
+   <elementGuidId>5bf4e8af-27b5-4ff8-b8da-17238fe23cdc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;${idlaptop}&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;${idlaptop}&quot;]</value>
+      <webElementGuid>34d9b38a-b449-4d4f-a5f6-c77f989e49bb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
