@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_and_Register_All_Scenario_Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cc9be644-a428-4a50-bb26-4523bb5fff02</testSuiteGuid>
+   <testCaseLink>
+      <guid>fb9581ff-50fa-4dd4-bab9-93e73e92db96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Advantage_Demo/Page/Register_Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72dd6993-dfa2-485a-a642-88b52a8c8ff7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Advantage_Demo/Page/Login_Page</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>33681c8d-0d21-43ee-8422-73d37016357e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Advantage_Demo/Login_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>33681c8d-0d21-43ee-8422-73d37016357e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>e540e837-872e-460e-9bb3-ddc598026b7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33681c8d-0d21-43ee-8422-73d37016357e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1aea19f0-a235-417c-8b93-437ff0d6ad24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>33681c8d-0d21-43ee-8422-73d37016357e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>5829e22d-37a6-4fca-a589-c7ad8ae757e9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

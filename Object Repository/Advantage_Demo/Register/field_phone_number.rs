@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_phone_number</name>
+   <tag></tag>
+   <elementGuidId>10e262b0-7e0c-45e9-9168-5e63ee555ba4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;formCover&quot;]/div[2]/div[2]/sec-view/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;formCover&quot;]/div[2]/div[2]/sec-view/div/input</value>
+      <webElementGuid>820f2bcf-c066-4ee9-bac7-853847a860c1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
