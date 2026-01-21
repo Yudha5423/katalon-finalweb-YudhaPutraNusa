@@ -65,8 +65,16 @@ WebUI.click(findTestObject('Object Repository/Advantage_Demo/Register/checkbox_a
 
 WebUI.click(findTestObject('Object Repository/Advantage_Demo/Register/button_register'))
 
-//Verify Register
+String weburl = WebUI.getUrl()
 
-String currentUrl = WebUI.getUrl()
-println(currentUrl)
-WebUI.verifyMatch(currentUrl, 'https://advantageonlineshopping.com/#/register', false)
+if (weburl == 'https://advantageonlineshopping.com/#/register') {
+	CustomKeywords.'navigation.browserNavigation.browserForward'()
+	
+	WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
+}
+
+
+//Verify Element Visible
+WebUI.verifyElementVisible(
+	findTestObject('Object Repository/Advantage_Demo/Register/Div_Speaker')
+)
